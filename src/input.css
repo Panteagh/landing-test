@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/Vazir.woff2') format('woff2'), 
+    url('fonts/Vazir.woff') format('woff'), 
+    url('fonts/Vazir.ttf') format('truetype');
+   }
+   @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../src/fonts/Vazir-Bold.eot');
+    src: url('../src/fonts/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+    url('../src/fonts/fonts/Vazir-Bold.woff2') format('woff2'), 
+    url('../src/fonts/fonts/Vazir-Bold.woff') format('woff'), 
+    url('../src/fonts/fonts/Vazir-Bold.ttf') format('truetype');
+   }
+    
+    
+   body{
+   font-family: 'Vazir', Arial, sans-serif;
+   font-weight:normal;
+   font-family: vazir;
+   direction: rtl;
+   background-color: #0e0f1b;
+   color: #ffffff;
+   }
+
+#bottone1 {
+  padding: 7px;
+  border-radius: 5px;
+  background: #ffc444;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#bottone1:hover {
+  box-shadow: 7px 5px 56px -14px #c3d900;
+}
+
+#bottone1:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #c3d900;
+}
